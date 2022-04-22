@@ -35,13 +35,8 @@ body {
   text-align: center;
 }
 
-ul {
-  text-align: center;
-  list-style: inside;
-}
-
 </style>
-<title>Dashboard</title>
+<title>Give Shout-out</title>
 </head>
 <body>
 <div class="topnav">
@@ -51,19 +46,19 @@ ul {
   <a href="userprofile.html">Personal Page</a>
 </div>
 
-<h1>Welcome (Username)</h1>
+<h1>Give a Shout-out</h1>
+<p>Leave a message for someone for what they have done.</p>
+<form>
+  <label for="giver">Giver:</label><br>
+  <input type="text" id="giver" name="giver"><br>
+  <label for="receiver">Receiver:</label><br>
+  <input type="text" id="receiver" name="receiver"><br>
+  <label for="message">Message:</label><br>
+  <input type="text" id="message" name="message"><br>
+  <label for="badge">Select a Badge:</label><br>
+  <input type="text" id="badge" name="badge"><br>
+  <input type="submit" value="Submit">
+</form>
 
-
-<p>Here are all the latest shoutouts!</p>
-
-<ul>
-<li>Thanks for helping clean up.</li>
-<li>Thanks for helping me out with work.</li>
-<li>Thanks for the snacks.</li>
-<li>Thanks for a great lunch.</li>
-<li>Thanks for doing a good work.</li>
-</ul>
-
-<button>Give a new shoutout!</button>
 </body>
 </html>
