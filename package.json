@@ -1,0 +1,21 @@
+{
+  "name": "pointsystem",
+  "version": "1.0.0",
+  "description": "Simple point reward system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ian-chong/pointsystem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ian-chong/pointsystem/issues"
+  },
+  "homepage": "https://github.com/ian-chong/pointsystem#readme"
+}
